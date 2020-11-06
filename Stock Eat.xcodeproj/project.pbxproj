@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00B8F6E253D7CFB00762A5B /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B8F6D253D7CFB00762A5B /* ProductCell.swift */; };
+		B05756AC253B445000367542 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05756AB253B445000367542 /* DataBase.swift */; };
 		B0628A2E253202510062D298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0628A2D253202510062D298 /* AppDelegate.swift */; };
 		B0628A30253202510062D298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0628A2F253202510062D298 /* ViewController.swift */; };
 		B0628A33253202510062D298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0628A31253202510062D298 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		B0628A38253202540062D298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0628A36253202540062D298 /* LaunchScreen.storyboard */; };
 		B0628A43253202540062D298 /* Stock_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0628A42253202540062D298 /* Stock_EatTests.swift */; };
 		B0628A4E253202540062D298 /* Stock_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0628A4D253202540062D298 /* Stock_EatUITests.swift */; };
+		B09E9791253C3557008D1A9E /* AddProctuctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E9790253C3557008D1A9E /* AddProctuctViewController.swift */; };
+		B0DB42322532F4240082CC1F /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DB42312532F4240082CC1F /* Scanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00B8F6D253D7CFB00762A5B /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		B05756AB253B445000367542 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		B0628A2A253202510062D298 /* Stock Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0628A2D253202510062D298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0628A2F253202510062D298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		B0628A49253202540062D298 /* Stock EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stock EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0628A4D253202540062D298 /* Stock_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_EatUITests.swift; sourceTree = "<group>"; };
 		B0628A4F253202540062D298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09E9790253C3557008D1A9E /* AddProctuctViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProctuctViewController.swift; sourceTree = "<group>"; };
+		B0DB42312532F4240082CC1F /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				B0628A2D253202510062D298 /* AppDelegate.swift */,
 				B0628A2F253202510062D298 /* ViewController.swift */,
 				B0628A31253202510062D298 /* Main.storyboard */,
+				B00B8F6D253D7CFB00762A5B /* ProductCell.swift */,
 				B0628A34253202540062D298 /* Assets.xcassets */,
 				B0628A36253202540062D298 /* LaunchScreen.storyboard */,
 				B0628A39253202540062D298 /* Info.plist */,
+				B0DB42312532F4240082CC1F /* Scanner.swift */,
+				B05756AB253B445000367542 /* DataBase.swift */,
+				B09E9790253C3557008D1A9E /* AddProctuctViewController.swift */,
 			);
 			path = "Stock Eat";
 			sourceTree = "<group>";
@@ -188,24 +200,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Emmanuel LOUCHEZ";
 				TargetAttributes = {
 					B0628A29253202510062D298 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 					};
 					B0628A3D253202540062D298 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = B0628A29253202510062D298;
 					};
 					B0628A48253202540062D298 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = B0628A29253202510062D298;
 					};
 				};
 			};
 			buildConfigurationList = B0628A25253202510062D298 /* Build configuration list for PBXProject "Stock Eat" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0628A30253202510062D298 /* ViewController.swift in Sources */,
+				B0DB42322532F4240082CC1F /* Scanner.swift in Sources */,
+				B05756AC253B445000367542 /* DataBase.swift in Sources */,
+				B00B8F6E253D7CFB00762A5B /* ProductCell.swift in Sources */,
+				B09E9791253C3557008D1A9E /* AddProctuctViewController.swift in Sources */,
 				B0628A2E253202510062D298 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +357,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -399,6 +419,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -433,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT5XB9FSJX;
 				INFOPLIST_FILE = "Stock Eat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT5XB9FSJX;
 				INFOPLIST_FILE = "Stock Eat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock Eat.app/Stock Eat";
 			};
@@ -496,7 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock Eat.app/Stock Eat";
 			};
@@ -515,7 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Stock Eat";
 			};
@@ -534,7 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emmanuellouchez.Stock-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Stock Eat";
 			};
